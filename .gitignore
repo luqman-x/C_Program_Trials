@@ -1,64 +1,39 @@
 # Compiled object files
 *.o
-*.obj
 
-# Static libraries
-*.a
-*.lib
-
-# Shared libraries
-*.so
-*.dylib
-*.dll
-
-# Executables
-*.exe
+# Executables (gcc default outputs)
+a.out
 *.out
-*.app
+*.exe
 
-# Debug files
+# Debug symbols
 *.dSYM/
-*.su
-*.idb
-*.pdb
+*.gdb
 
-# Core dumps
+# Static and shared libraries
+*.a
+*.so
+
+# Core dump files
 core
 *.core
 
-# Build directories
+# Build folders (if you ever use them)
 build/
 bin/
-obj/
 out/
 
-# CMake files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Autotools files
-aclocal.m4
-autom4te.cache/
-configure
-config.log
-config.status
-Makefile.in
+# Temporary files
+*.tmp
+*.swp
+*~
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.temp
-*.swp
-*~
-
-# IDE / Editor files
+# VS Code / IDE
 .vscode/
 .idea/
-*.code-workspace
 
 # OS files
 .DS_Store
