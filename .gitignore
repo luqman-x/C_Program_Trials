@@ -38,3 +38,9 @@ out/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Code::Blocks files
+*.depend
+*.layout
+*.cbp
+*.workspace
